@@ -22,6 +22,7 @@ It demonstrates tile spawning, beat synchronization, and responsive UI mechanics
 - **Tile Movement:** Tiles move based on BPM instead of a tile movement speed to synchronize gameplay with music.
 - **UI System:** A very simple prototype design with a centralize script control the UI elements. (This can be seperate to scale up the project if needed)
 - **Data-Driven Songs:** Song data (BPM and note timings) is stored in a ScriptableObject. A custom editor allows easy viewing and editing of notes and tiles directly in the Inspector.
+- **Object Pooling:** Particles for tile destroy and tiles object itself is store in the pool and reused so no need to instantiate or destroy objects.
 
 ## External Assets & Attribution
 - Music track: `"Fly Away"` by `TheFatRat`
